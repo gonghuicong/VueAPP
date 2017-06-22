@@ -1,0 +1,52 @@
+$brand-primary:         #ff6700;
+$brand-info:            #48cfad;
+$brand-success:         #27ae60;
+$brand-warning:         #f39c12;
+$brand-danger:          #c0392b;
+$brand-light:           #edf1f2;
+$brand-dark:            #ccd1d9;
+$brand-black:           #434a54;
+
+$body-bg:               lighten($brand-light, 1%);
+$text-color:            #58666e;
+$text-muted:            lighten($text-color, 25%);
+
+$font-size-base:          14px;
+$font-size-lg:            ceil($font-size-base * 1.23); // ~20px
+$font-size-md:            ceil($font-size-base * 1.14); // ~16px
+$font-size-sm:            ceil($font-size-base * 0.92); // ~13px
+$font-size-xs:            ceil($font-size-base * 0.85); // ~12px
+
+$link-color:              #757575;
+$link-hover-color:        #ff6700;
+
+$border-radius-base:      3px !default;
+$border-radius-large:     3px !default;
+$border-radius-small:     3px !default;
+$border-color:		  	  darken($brand-light, 5%);
+
+$line-height-base:        1.42857143; // 20/14
+$line-height-computed:    floor($font-size-base * $line-height-base); // ~20px
+$icon-css-prefix:         i;
+
+// Buttons
+// -------------------------
+$btn-default-color:              $text-color;
+$btn-default-bg:                 lighten($brand-light, 5%);
+$btn-default-border:             $border-color;
+$btn-border-radius:              $border-radius-base;
+
+$input-border:                   darken($border-color, 5%);
+$input-border-focus:             $brand-info;
+
+$nav-bg:                         lighten($brand-light, 3%);
+$badge-bg:                       darken($brand-light, 10%);
+
+$list-group-item-border:         lighten($border-color, 3%);
+$list-group-item-hover:          lighten($brand-light, 3%);
+$list-group-item-focus:          darken($brand-light, 3%);
+$list-group-select-color:        #dbeef9;
+$list-group-active-color:        $brand-info;
+
+$table-border-color:             lighten($border-color, 4%);
+$table-striped-color:            lighten($brand-light, 4.5%);

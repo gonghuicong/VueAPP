@@ -1,0 +1,117 @@
+@charset "utf-8";
+html{font-size: 20px}
+/*Note3*/
+@media only screen and (min-width: 360px) {
+  html { font-size: 22px !important; }
+}
+
+/*iPhone6*/
+@media only screen and (min-width: 376px) {
+  html { font-size: 23px !important; }
+}
+
+/*iPhone6 plus*/
+@media only screen and (min-width: 414px) {
+  html { font-size: 25px !important; }
+}
+
+/*big Resolution*/
+@media only screen and (min-width: 641px) {
+  html { font-size: 25px !important; }
+}
+*{ margin: 0;padding: 0;list-style: none; }
+a{ text-decoration: none }
+body{ font-family: Heiti, Heiti SC, DroidSans, DroidSansFallback, Arial, "Microsoft YaHei"; }
+.card-list { display: inline-block; list-style:none;margin: 0; padding: 0 10px; }
+.card-list li { width: 50%; float:left; margin-bottom: 20px;vertical-align: middle; }
+.card-list li > a { position: relative;display: block; font-size:15px;margin: 10px; padding: 2%;height: 2rem;vertical-align: middle; border-radius: 3px; border: 1px solid #a8a8a8; text-align: right;text-decoration: none;color: #000; }
+.card-list li > a span{line-height: 2rem }
+.card-list li > a img { float: left; }
+.card-list li a a{ position: relative;top:-0.5rem;font-size: 13px;background-color: #ff030f;color: #ffffff;border-radius: 13px;left: 0.2rem}
+.wrap{ width: 100%;height: 100%;font-size: 0.7rem;}
+.role-choice { background-color: #e2e2e2;margin: 0 auto;text-align: center;height: 40px;width: 100%;line-height: 36px}
+.wrap .card-list img{ width: 30% ;text-align: center;}
+
+.wrap .wrap-align{ padding: 0 6% 0 6%; }
+.keFu-img{ text-align: center; }
+.keFu-img img{ text-align: center;border-radius: 100px ;width: 20%;margin:10px 0 10px 0;}
+
+/*清除浮动*/
+.baoming .keHuInformation .information { clear: both;content: "";display: inline-block;zoom: 1;float: left }
+/*参考方案信息*/
+.baoming .keHuInformation{ display: inline-block;background-color: #ededed ;color: #000;width: 100%}
+.wrap .keHuInformation li{ padding: 3% 0 3% 3%;float: left;list-style: none;font-size: 0.65rem;margin-bottom: 1%;background-color: #ffffff;color: #000; }
+.wrap .keHuInformation li .information img{ width: 18%;border-radius: 8px;float: left;margin-top: 3% }
+.wrap .keHuInformation .information .mid { float: left;width: 47%;margin-left: 4% ;}
+.wrap .keHuInformation .information .mid div{ line-height: 150%;opacity: 0.7;font-size: 0.55rem;margin-top: 2%; }
+.wrap .keHuInformation .information .mid div span{ margin-left: 10%;}
+.wrap .keHuInformation .information .mid .people{ color: #ff7212; }
+.wrap .keHuInformation .information .mid .mint-button--small{ text-align: center; }
+.wrap .keHuInformation .information .right{ float: left;width: 25%;text-align: center }
+/*客服参考方案的统一样式*/
+.biaoQian { margin-top: 0.5rem }
+.baoming .result img{width: 100%;text-align: center;height: 10rem }
+/*tab1*/
+.mint-tab-container .result{border-top:1px solid #f3f3f3;}
+.mint-tab-container .result .activity{ font-size: 0.5rem;text-align: center; margin-top: 2%}
+.mint-tab-container .result .contact{ position:relative;width: 90%;color: #ffffff;background-color: #26a2ff;line-height: 1rem;padding: 0.2rem;font-size: 0.6rem;text-align: center;border-radius: 0.2rem;margin:5% 0 0 5%;}
+.mint-tab-container .result .contact span{ position: absolute;left: 90%}
+.mint-tab-container .result .customer ul li{ list-style: none;float: left;width: 41%;background-color: grey;margin: 2% 0 0 5%;text-align: center;color: #ffffff;border-radius: 0.2rem;font-size: 0.6rem;padding: 0.2rem;}
+.budget .header { text-align: center;color: #00a0e9;padding: 0.4rem 0;font-size: 0.6rem;border-top:2px solid #f3f3f3;}
+.budget .nav ul{ border-top:1px dashed #cecece;border-bottom: 1px dashed #cecece;display: inline-block;width: 100%}
+.budget .nav ul li{ float: left;list-style: none;width: 33.3%;text-align: center;padding: 0.4rem 0;opacity: 0.5;font-size: 0.5rem}
+/*tab2*/
+.baoming .homeInformation{ display: inline-block;background-color: #ededed ;color: #000;width: 100% }
+.wrap .homeInformation li{ padding: 1% 3%;float: left;list-style: none;font-size: 0.65rem;margin-bottom: 1%;background-color: #ffffff;color: #000;width: 100% }
+.wrap .homeInformation li .information img{ width: 15%;border-radius: 8px;float: left;}
+.wrap .homeInformation .information .mid { float: left;width: 70%;margin-left: 4% }
+.wrap .homeInformation .information .mid .people{ color: #000;font-weight: 600;letter-spacing: 3px;}
+.wrap .homeInformation .information .mid .area { font-size: 0.56rem;margin-top: 4%;opacity: 0.7}
+.wrap .homeInformation .information .right{ float: left;width: 4% }
+/*tab3*/
+.function .home{ font-size: 0.7rem; letter-spacing: 3px;text-indent: 1rem;border-top:2px solid #f3f3f3;padding: 2% 0}
+.function .children{ border-top:1px dashed #cecece;border-bottom: 1px dashed #cecece;font-size: 0.65rem; text-indent: 1rem;padding-bottom: 1rem}
+.function .children div{ padding: 2% 0; }
+/*mint-ui公用样式调动*/
+.cell a{ text-decoration: none ;color: #000 }
+/*财务部工程款收款方式*/
+.finish,.total,.deposit{ border-bottom: 1px solid #bbbcbb;height: 1.8rem;line-height: 1.8rem;opacity: 0.9;padding: 0 2% }
+.finish span,.deposit span{ margin-left: 0.1rem; }
+.total span { margin-left: 0.8rem }
+.finish a,.deposit a { letter-spacing: 0.7rem }
+.wait{ border-bottom: 1px solid #bbbcbb;height: 1.8rem;line-height: 1.8rem;opacity: 0.9;padding: 0 2% }
+.wait span{ margin-left: 0.1rem; }
+/*财务部工程款*/
+.wrap .wrap .caiwubu-nav{ margin: 0 auto;text-align: center;display: inline-block; width: 100%}
+.wrap .wrap .caiwubu-nav ul { text-align: center;width: 100%;display: inline-block }
+.baoming .gckInformation{ display: inline-block;color: #000;width: 100%}
+.wrap .gckInformation li{ width: 97%;padding: 0 0 0 2%;float: left;list-style: none;font-size: 0.65rem;background-color: #ffffff;color: #000; }
+.wrap .gckInformation li .information img{ width: 18%;border-radius: 8px;float: left; }
+.wrap .gckInformation .information .mid { float: left;width: 70%;margin-left: 4% ;}
+.wrap .gckInformation .information .mid div{ line-height: 130%;opacity: 0.9;font-size: 0.55rem;margin-top: 2%; }
+.wrap .gckInformation .information .mid div span{ margin: 0 10% 10% 5%;}
+.wrap .all{ overflow: auto;height: 30rem }
+.wrap .nav-content{ border: 1px solid #cbcbcb;width: 95%;margin: 0 auto;margin-bottom: 0.6rem; }
+.nav-content .caiwubu-header ul li{ float: left;list-style: none;  height:35px;  line-height:35px;  overflow:hidden; }
+.nav-content .caiwubu-header ul .first_li{ margin-right: 0.5rem }
+.nav-content .caiwubu-header ul .second_li{ margin-right: 4rem }
+.nav-content .caiwubu-header ul .third_li{ color: #ff4d1c; }
+.nav-content .caiwubu-header{ text-align: center; list-style: none;  font-size: 0.65rem; border-bottom:1px solid #cbcbcb;width: 100%;display: inline-block;margin: 0 auto;opacity: 0.7 }
+.nav-content .caiwubu-header ul li img{ width: 34px ;height: 34px;line-height: 2rem; }
+.nav-content .caiwubu-people{ display:inline-block; width: 100%;border-top: 1px solid #cbcbcb;padding: 2% 0 }
+.nav-content .caiwubu-people ul li{ float: left;font-size: 0.6rem;width: 32%;list-style: none;margin-left: 1% }
+.nav-content .caiwubu-footer { border-top: 1px solid #cbcbcb ;padding:1% 1% ;font-size: 0.6rem}
+.nav-content .caiwubu-footer .mint-button--small{ margin-right:1rem; background-color: #ff9724 ;padding: 0 2% ;color: #ffffff;font-size: 0.6rem;width: 17%}
+.nav-content .caiwubu-footer .data { margin-right:60%; }
+
+
+.effect { width: 100%;margin-top: 1rem }
+.effect .nav li{ float: left;width: 10% ;text-align: center;margin-left: 2.5% }
+.effect .nav .big { width: 18% }
+.effect .data-plan { display: inline-block;width: 100%;margin-top: 1rem }
+.effect .data-plan .click{ opacity: 0.9 }
+.effect .data-plan .plan{ padding: 0 0.5rem }
+.effect .data-plan .plan button{ padding: 1.5%;background-color: #ffffff }
+.effect .data-plan .plan p{ padding: 2% 1%;font-size: 0.7rem;opacity: 0.7 }
+.effect .data-plan .plan ul li{ float: left;width: 30%;list-style: none;text-align: center;margin-left: 3% }
+.effect .data-plan .plan input{ width: 80%;height: 1.2rem; }
